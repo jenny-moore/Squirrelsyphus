@@ -65,30 +65,16 @@ Git LFS is for large files, which we'll be dealing with a lot in this project. P
 
 ---
 
-## Step 3: Generate Project Files
+## Step 3: Open the Project in Unreal Engine
 
-1. **Find the .uproject file:**
-   - Open the folder where you downloaded the project
-   - Look for a file ending in `.uproject` (ex: `SquirrelTest.uproject`)
-
-2. **Generate Visual Studio files:**
-   - **Windows:** Right-click the `.uproject` file → Select "Generate Visual Studio project files"
-     - If you don't see this option, your Unreal Engine installation may not be properly registered. Try opening Epic Games Launcher and verifying your Unreal Engine installation.
-   - **Mac:** Right-click the `.uproject` file → Select "Generate Xcode project"
-
-3. Wait for the process to complete (usually takes 1-2 minutes)
-
----
-
-## Step 4: Open the Project in Unreal Engine
-
-1. **Double-click the `.uproject` file**
-   - Unreal Engine should launch automatically
-   - If asked which version to use, select 5.5.X
+1. **Launch Unreal Engine**
+   - Once in Unreal Engine, open SquirrelDemo from the Unreal Project Browser.
+   - Note: If you launch through Epic Games, you may see SquirrelDemo in your Projects. 
+   - **If it has the Unreal logo and no graphics, you must launch Unreal before opening it.**
+   - Otherwise Unreal will not know that it needs to generate project files before running and throw an error.
 
 2. **First-time setup:**
-   - The first time you open the project, Unreal will take a long time to set everything up
-   - You'll see progress bars at the bottom right
+   - The first time you open the project, Unreal may take a long time to set everything up
    - **Don't close Unreal during this process!** Just let it finish
 
 3. **Success!**
@@ -110,7 +96,7 @@ Always get the latest changes first:
 1. Save your work in Unreal Engine (Ctrl+S or Cmd+S)
 2. Close Unreal Engine
 3. Open Command Prompt/Terminal
-4. Navigate to your project folder
+4. Navigate to your project folder: `cd "C:<path>\Unreal Projects\Squirrelsyphus"`
 5. Type these commands one at a time:
    ```
    git add .
