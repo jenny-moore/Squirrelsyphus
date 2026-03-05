@@ -5,7 +5,7 @@
 ## What You'll Need
 
 Before starting, make sure you have:
-- Unreal Engine 5.5 installed
+- Unreal Engine 5.7 installed
 - A GitHub account
 
 ---
